@@ -1,0 +1,172 @@
+
+/** appointment-section **/
+
+.appointment-section{
+  position: relative;
+}
+
+.appointment-section .inner-container{
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-top: -75px;
+  z-index: 2;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 70px 0px rgba(0, 0, 0, 0.1);
+  padding: 45px 60px;
+}
+
+.appointment-section form{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.appointment-section .form-group{
+  position: relative;
+  margin-bottom: 0px;
+}
+
+.appointment-section .form-group:before{
+  position: absolute;
+  content: '';
+  background: rgba(0, 0, 0, 0.20);
+  width: 1px;
+  height: 80px;
+  top: -7px;
+  right: -60px;
+}
+
+.appointment-section .form-group:last-child:before{
+  display: none;
+}
+
+.appointment-section .form-group label{
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 28px;
+  color: #0C264C;
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.appointment-section .form-group .nice-select,
+.appointment-section .form-group input[type='text']{
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0px;
+  border: none;
+  font-size: 20px;
+  line-height: 29px;
+  height: 26px;
+  color: #697488;
+  cursor: pointer;
+}
+
+.appointment-section .nice-select .list{
+  min-width: 230px !important;
+}
+
+.appointment-section .form-group .select-box{
+  min-height: 28px;
+}
+
+.appointment-section.alternat-2 .inner-container{
+  border-radius: 120px;
+}
+
+
+
+/** RTL **/
+
+.rtl .appointment-section .form-group:before{
+  right: inherit;
+  left: -60px;
+}
+
+/** responsive-css **/
+
+@media only screen and (max-width: 1200px){
+  .appointment-section .form-group:before{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px){
+  .appointment-section .inner-container{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .appointment-section form{
+    display: block;
+  }
+
+  .appointment-section .form-group label{
+    margin-bottom: 0px;
+  }
+
+  .appointment-section .form-group{
+    margin-bottom: 15px;
+  }
+
+  .appointment-section .form-group:last-child{
+    margin-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
